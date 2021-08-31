@@ -10,14 +10,5 @@ int cadinv(char *cad){
   while (cad[contador] != 0) {
     contador++;
   }
-  //printf("La longitud de '%s' es %d", cad, contador);
-
-  //cad[1] = (char)contador;
   return contador;   
 }
-
- 
-  // printf("La Cadena invertida es: ");
-    //strrev(cad);
-    //printf("%s ", cad);
-	//return cad;
