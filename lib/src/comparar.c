@@ -8,7 +8,7 @@
 #include<stdbool.h>
 #include<stdio.h>
 
-char * compareTo(const char *s1, const char *s2){
+char * comparar(const char *s1, const char *s2){
    
     int count = 0;
     if ( strlen(s1) == strlen(s2) ) {
