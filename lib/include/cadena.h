@@ -20,11 +20,11 @@
 
 /**
  * @brief compare two arrangements of characters
- * @param char *s1
- * @param char *s2
- * @return if the strings are equals (type: string)
+ * @param char s1
+ * @param char s2
+ * @return void
  */
-char *comparar(const char *s1, const char *s2);
+void comparar(char s1[], char s2[]);
 
 /**
  * @brief get the size of the string 
