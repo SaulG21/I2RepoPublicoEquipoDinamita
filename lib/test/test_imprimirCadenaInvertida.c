@@ -8,11 +8,30 @@
 #include <stdlib.h>
 #include "..\src\imprimirCadenaInvertida.c"
 
-//void imprimeCadenaInvertida(char arr[], int);
+void initialize_array(unsigned *, size_t, unsigned);
+void imprimeCadenaInvertida(unsigned *, int);
 
-int main()
+int main(int argc, char const *argv[])
 {
+  unsigned n = atof(argv[1]);
+  unsigned seed = atof(argv[2]);
+  unsigned *array_ptr = (unsigned *)malloc(n * sizeof(int));
 
-  char cadenita[] = "arquitectura";
-  imprimeCadenaInvertida(cadenita, 12);
+  initialize_array(array_ptr, n, seed);
+
+  for (size_t i = 0; i < n; i++)
+  {
+    printf("%d ", array_ptr[i]);
+  }
+
+  imprimeCadenaInvertida(array_ptr, n);
+}
+
+void initialize_array(unsigned *arr, size_t n, unsigned seed)
+{
+  srand(seed);
+  for (size_t i = 0; i < n; i++)
+  {
+    printf("%d ", arr[i] = rand());;
+  }
 }
