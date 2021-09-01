@@ -4,7 +4,7 @@
  * */
 #include<string.h>
 #include<stdio.h>
-int cadinv(char *cad){
+int cuentacadena(char *cad){
 
  int contador = 0;
   while (cad[contador] != 0) {
