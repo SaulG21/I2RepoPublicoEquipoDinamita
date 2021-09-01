@@ -40,7 +40,7 @@ int cuentacadena(char *cad);
  * @param n The size n of the array
  * @return type: void
  */
-void imprimeCadenaInvertida(unsigned *arr, int n);
+void imprimeCadenaInvertida(char arr[], int n);
 
 /**
  * @brief search vowels on the string

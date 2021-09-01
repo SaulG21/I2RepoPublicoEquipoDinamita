@@ -7,10 +7,10 @@
 #include <string.h>
 #include <stdio.h>
 
-void imprimeCadenaInvertida(unsigned *arr, int n)
+void imprimeCadenaInvertida(char arr[], int n)
 {
   for (int i = n; i >= 0; i--)
   {
-    printf("%d ", arr[i]);
+    printf("%c", arr[i]);
   }
 }
