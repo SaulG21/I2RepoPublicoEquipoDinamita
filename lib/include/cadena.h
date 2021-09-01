@@ -29,7 +29,7 @@ char *comparar(const char *s1, const char *s2);
 /**
  * @brief get the size of the string 
  * @param char *cad
- * @return chain size 
+ * @return chain size (type: int)
  */
 int cuentacadena(char *cad);
 
