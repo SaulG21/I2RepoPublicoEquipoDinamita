@@ -1,14 +1,13 @@
 /* @brief compare two strings
  * @param count - string length
- * @returns "Las cadenas son iguales :)"
- * @returns "No son iguales las cadenas introducidas :["
+ * @returns void
  */
 
 #include<string.h>
 #include<stdbool.h>
 #include<stdio.h>
 
-char * comparar(const char *s1, const char *s2){
+void comparar(char s1[], char s2[]){
    
     int count = 0;
     if ( strlen(s1) == strlen(s2) ) {
@@ -20,8 +19,8 @@ char * comparar(const char *s1, const char *s2){
     }
 
     if ( count == strlen(s1) ) {
-        return "Las cadenas son iguales :)";
+        printf("Las cadenas son iguales :)");
     } else {
-        return "No son iguales las cadenas introducidas :[";
+        printf("No son iguales las cadenas introducidas :[");
       }
 }
