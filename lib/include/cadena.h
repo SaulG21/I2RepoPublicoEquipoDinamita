@@ -54,4 +54,4 @@ int contarVocales(char *cadena);
  * @param char cadena[]
  * @return type: void
  */
-void sufijos(char cadena[])
+void sufijos(char cadena[]);
