@@ -1,5 +1,5 @@
 /**
- * @file cadena.h
+ * @file cadena.h library static
  * @authors: 
  *          1. Garcia Godoy Victor Saul
  *          2. Alcantara Segura Karina
